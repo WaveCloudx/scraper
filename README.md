@@ -66,11 +66,8 @@ console.log(anu)
 | Search | Feature | Code |
 |:--------------|:--------------|:------------|
 | Komiku   | title, description, image, link, | const { komiku } = require("catozolala") |
-
 | stickersearch | title, author, author_link, sticker, | const { stickersearch } = require("catozolala") |
-
 | npmstalk | name, versionLatest, versionPublish, versionUpdate, latestDependencies, publishDependencies, latesPublishTime, publishTime, thumbnail, | const { npmstalk } = require("catozolala") |
-
 | ttSearch | video_id, region, title, cover, duration, play, wmplay, size, wm_size, music, music_info, play_count, digg_count, comment_count, share_count, download_count, create_time, anchors, is_ad, author | const { ttSearch } = require("catozolala") |
 
 | Tools | Feature | Code |
