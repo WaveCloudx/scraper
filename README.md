@@ -60,20 +60,34 @@ console.log(anu)
 ```
 
 
-# [❗] `Update`
+# [❗] `Update && Example`
 
 
-| Name     |             Feature              |
-|:---------|:---------------------------------|
-| Komiku   | title, description, image, link  |
-| obfus    | result,                          |
-| tiktokdl | caption, server1, quality, url, serverHD, quality, url, audio |
-| stickersearch | title, author, author_link, sticker, |
+| Search | Feature | Code |
+|:--------------|:--------------|:------------|
+| Komiku   | title, description, image, link, | const { komiku } = require("catozolala")
+let anu = await komiku("shikanoko")
+console.log(anu) |
+
+| stickersearch | title, author, author_link, sticker, | const { stickersearch, } = require("catozolala")
+
+let anu = await stickersearch("anime")
+console.log(anu) |
+
 | npmstalk | name, versionLatest, versionPublish, versionUpdate, latestDependencies, publishDependencies, latesPublishTime, publishTime, thumbnail,
+| ttSearch | video_id, region, title, cover, duration, play, wmplay, size, wm_size, music, music_info, play_count, digg_count, comment_count, share_count, download_count, create_time, anchors, is_ad, author |
 
+| Tools | Feature | Code |
+|:-----------|:--------------|:---------|
+| obfus | result, | 
+
+
+| Download | Feature | Code |
+|:-------------------|:----------------|:-----------|
+| tiktokdl | caption, server1, quality, url, serverHD, quality, url, audio |
 
 ## `Developer`
-[![Catozolala](https://github.com/CATOZOLALA.png?size=100)](https://github.com/CATOZOLALA)
+[![WaveCloudx / Catozolala](https://github.com/WaveCloudx.png?size=100)](https://github.com/WaveCloudx)
 
 <img align="center" src="https://i.ibb.co.com/k2x78wh/anime-characters-of-girls-frontline-3f2gt7tzkvo6npke.jpg" style="border-radius: 10px;"/>
 
