@@ -72,12 +72,12 @@ console.log(anu)
 
 | Tools | Feature | Code |
 |:-----------|:--------------|:---------|
-| obfus | result, | 
+| obfus | result, | const { obfus } = require("catozolala") |
 
 
-| Download | Feature | Code |
+| ``Download``` | Feature | Code |
 |:-------------------|:----------------|:-----------|
-| tiktokdl | caption, server1, quality, url, serverHD, quality, url, audio |
+| tiktokdl | caption, server1, quality, url, serverHD, quality, url, audio | const { tiktokdl } = require("catozolala") |
 
 ## `Developer`
 [![WaveCloudx / Catozolala](https://github.com/WaveCloudx.png?size=100)](https://github.com/WaveCloudx)
