@@ -75,12 +75,15 @@ console.log(anu)
 | obfus | result, | const { obfus } = require("catozolala") |
 
 
-| ``Download``` | Feature | Code |
+| Download | Feature | Code |
 |:-------------------|:----------------|:-----------|
 | tiktokdl | caption, server1, quality, url, serverHD, quality, url, audio | const { tiktokdl } = require("catozolala") |
 
 ## `Developer`
 [![WaveCloudx / Catozolala](https://github.com/WaveCloudx.png?size=100)](https://github.com/WaveCloudx)
+
+## `Thanks To`
+[![Kaviaann / Catozolala](https://github.com/Kaviaann.png?size=100)](https://github.com/Kaviaann)
 
 <img align="center" src="https://i.ibb.co.com/k2x78wh/anime-characters-of-girls-frontline-3f2gt7tzkvo6npke.jpg" style="border-radius: 10px;"/>
 
