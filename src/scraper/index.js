@@ -1,1 +1,11 @@
-const _0x30f4c6=_0x5ee7;function _0x2693(){const _0x51dd9e=['19965lJRMMR','assign','544418tZgGTd','9CChzcS','1396810XZiaPP','.js','23546032Ivwmia','join','index.js','1757192drsTiy','3361434BAbqGR','124fpBftj','2802821kaGpSF'];_0x2693=function(){return _0x51dd9e;};return _0x2693();}(function(_0xa8120c,_0x395fa8){const _0x567c10=_0x5ee7,_0x452bec=_0xa8120c();while(!![]){try{const _0xa727=-parseInt(_0x567c10(0x178))/0x1+parseInt(_0x567c10(0x181))/0x2*(-parseInt(_0x567c10(0x176))/0x3)+-parseInt(_0x567c10(0x17f))/0x4+-parseInt(_0x567c10(0x17a))/0x5+-parseInt(_0x567c10(0x180))/0x6+-parseInt(_0x567c10(0x182))/0x7+-parseInt(_0x567c10(0x17c))/0x8*(-parseInt(_0x567c10(0x179))/0x9);if(_0xa727===_0x395fa8)break;else _0x452bec['push'](_0x452bec['shift']());}catch(_0x530ea4){_0x452bec['push'](_0x452bec['shift']());}}}(_0x2693,0x4aeec));function _0x5ee7(_0xb583eb,_0x4816ec){const _0x2693d3=_0x2693();return _0x5ee7=function(_0x5ee7da,_0x4f495e){_0x5ee7da=_0x5ee7da-0x176;let _0x292394=_0x2693d3[_0x5ee7da];return _0x292394;},_0x5ee7(_0xb583eb,_0x4816ec);}const path=require('path'),fs=require('fs'),modules={};for(let file of fs['readdirSync'](__dirname)){const type=path['extname'](file);if(type!==_0x30f4c6(0x17b)||file===_0x30f4c6(0x17e))continue;Object[_0x30f4c6(0x177)](modules,require(path[_0x30f4c6(0x17d)](__dirname,file)));}module['exports']=modules;
+const path = require("path");
+const fs = require("fs");
+const modules = {};
+
+for (let file of fs.readdirSync(__dirname)) {
+  const type = path.extname(file);
+  if (type !== ".js" || file === "index.js") continue;
+  Object.assign(modules, require(path.join(__dirname, file)));
+}
+
+module.exports = modules;

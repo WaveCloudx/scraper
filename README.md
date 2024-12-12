@@ -60,20 +60,31 @@ console.log(anu)
 ```
 
 
-# [❗] `Update`
+# [❗] `Update && Example`
 
 
-| Name     |             Feature              |
-|:---------|:---------------------------------|
-| Komiku   | title, description, image, link  |
-| obfus    | result,                          |
-| tiktokdl | caption, server1, quality, url, serverHD, quality, url, audio |
-| stickersearch | title, author, author_link, sticker, |
-| npmstalk | name, versionLatest, versionPublish, versionUpdate, latestDependencies, publishDependencies, latesPublishTime, publishTime, thumbnail,
+| Search | Feature | Code |
+|:--------------|:--------------|:------------|
+| Komiku   | title, description, image, link, | const { komiku } = require("catozolala") |
+| stickersearch | title, author, author_link, sticker, | const { stickersearch } = require("catozolala") |
+| npmstalk | name, versionLatest, versionPublish, versionUpdate, latestDependencies, publishDependencies, latesPublishTime, publishTime, thumbnail, | const { npmstalk } = require("catozolala") |
+| ttSearch | video_id, region, title, cover, duration, play, wmplay, size, wm_size, music, music_info, play_count, digg_count, comment_count, share_count, download_count, create_time, anchors, is_ad, author | const { ttSearch } = require("catozolala") |
 
+| Tools | Feature | Code |
+|:-----------|:--------------|:---------|
+| obfus | result, | const { obfus } = require("catozolala") |
+| hitungUsia | pakek let aja | const { hitungUsia } = require("catozolala") |
+| kirimGmail | (gmail) | const { kirimGmail } = require("./all/kirimGmail") kirimGmail(Togmail, subjek, teksnya) |
+
+| Download | Feature | Code |
+|:-------------------|:----------------|:-----------|
+| tiktokdl | caption, server1, quality, url, serverHD, quality, url, audio | const { tiktokdl } = require("catozolala") |
 
 ## `Developer`
-[![Catozolala](https://github.com/CATOZOLALA.png?size=100)](https://github.com/CATOZOLALA)
+[![WaveCloudx / Catozolala](https://github.com/WaveCloudx.png?size=100)](https://github.com/WaveCloudx)
+
+## `Thanks To`
+[![Kaviaann / Catozolala](https://github.com/Kaviaann.png?size=100)](https://github.com/Kaviaann)
 
 <img align="center" src="https://i.ibb.co.com/k2x78wh/anime-characters-of-girls-frontline-3f2gt7tzkvo6npke.jpg" style="border-radius: 10px;"/>
 
