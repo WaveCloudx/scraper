@@ -73,8 +73,12 @@ console.log(anu)
 | Tools | Feature | Code |
 |:-----------|:--------------|:---------|
 | obfus | result, | const { obfus } = require("catozolala") |
+<<<<<<< HEAD
 | hitungUsia | pakek let aja | const { hitungUsia } = require("catozolala") |
 | kirimGmail | (gmail) | const { kirimGmail } = require("./all/kirimGmail") kirimGmail(Togmail, subjek, teksnya) |
+=======
+
+>>>>>>> bffb4ca81dbef3465dcfd04036fd52fc2e067c60
 
 | Download | Feature | Code |
 |:-------------------|:----------------|:-----------|
