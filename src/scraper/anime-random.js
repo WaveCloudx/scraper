@@ -1,8 +1,8 @@
 require("./config")
 
-async function stickersearch(teks) {
+async function randomAnime() {
     try {
-        const response = await fetchJson(urlApi+`/searchSticker?query=${encodeURIComponent(teks)}`);
+        const response = await fetchJson(urlApi+`/random-anime`);
 
         if (!response) {
             throw new Error(`HTTP Error: ${response}`);
@@ -13,11 +13,11 @@ async function stickersearch(teks) {
     } catch (error) {
         console.error('Error:', error.message);
         return {
-            error: 'Error dalam mendapatkan data dari API sticker',
+            error: 'Error dalam mendapatkan data dari API ttSearch',
         };
     }
 }
 
 module.exports = {
-  stickersearch
+    randomAnime
 }

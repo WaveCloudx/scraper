@@ -4,11 +4,11 @@ async function hitungUsia(teks) {
     try {
         const response = await fetchJson(urlApi+`/usia?query=${encodeURIComponent(teks)}`);
 
-        if (!response.ok) {
-            throw new Error(`HTTP Error: ${response.status}`);
+        if (!response) {
+            throw new Error(`HTTP Error: ${response}`);
         }
 
-        const data = await response.json();
+        const data = await response
         return data;  // Mengembalikan JSON langsung tanpa modifikasi
     } catch (error) {
         console.error('Error:', error.message);
